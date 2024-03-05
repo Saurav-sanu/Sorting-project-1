@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#inputArray {
+    width: 100%;
+    padding: 10px;
+}
+
+#sortingAlgorithm {
+    width: 100%;
+    padding: 10px;
+}
+
+#sortButton {
+    margin: 10px;
+    padding: 10px;
+}
+
+#visualization {
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.bar {
+    background-color: #3498db;
+    width: 20px;
+    margin: 0 1px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+#swapCount {
+    font-weight: bold;
+}

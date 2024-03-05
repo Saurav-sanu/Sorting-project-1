@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <input id="inputArray" type="text" placeholder="Enter array (e.g., 5, 2, 9, 1)">
+        
+        <!-- Add a dropdown to select the sorting algorithm -->
+        <select id="sortingAlgorithm">
+            <option value="bubbleSort">Bubble Sort</option>
+            <option value="selectionSort">Selection Sort</option>
+            <option value="insertionSort">Insertion Sort</option>
+            <option value="quickSort">Quick Sort</option>
+            <option value="mergeSort">Merge Sort</option>
+            <option value="radixSort">Radix Sort</option>
+            <option value="countingSort">Counting Sort</option>
+            <option value="bucketSort">Bucket Sort</option>
+        </select>
+        
+        <button id="sortButton">Sort</button>
+        <div id="visualization">
+            <div class="bars-container"></div>
+        </div>
+        <p id="swapCount"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
